@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Olive & Thyme Bistro</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-green-800 text-white py-6 shadow-md">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold">Olive & Thyme Bistro</h1>
+      <p class="text-lg mt-2">Fresh. Local. Mediterranean-Inspired.</p>
+    </div>
+  </header>
+
+  <!-- Hero Image -->
+  <section class="relative">
+    <img src="https://source.unsplash.com/1600x600/?restaurant,mediterranean" alt="Bistro interior" class="w-full h-96 object-cover">
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+      <h2 class="text-white text-3xl md:text-5xl font-semibold">Welcome to Olive & Thyme</h2>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-12 px-6 max-w-4xl mx-auto text-center">
+    <h3 class="text-2xl font-semibold mb-4">About Us</h3>
+    <p class="text-gray-600">
+      At Olive & Thyme Bistro, we believe in celebrating the flavors of the Mediterranean with a modern twist. 
+      Our chefs use the finest local ingredients to craft dishes that are both delicious and memorable.
+    </p>
+  </section>
+
+  <!-- Menu Preview -->
+  <section class="bg-gray-100 py-12 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-4">Featured Dishes</h3>
+      <ul class="grid gap-6 md:grid-cols-3">
+        <li class="bg-white p-4 rounded shadow">Grilled Lemon Herb Chicken</li>
+        <li class="bg-white p-4 rounded shadow">Roasted Beet & Feta Salad</li>
+        <li class="bg-white p-4 rounded shadow">Lamb Kofta with Tzatziki</li>
+      </ul>
+      <a href="#" class="inline-block mt-6 text-green-800 font-medium hover:underline">View Full Menu →</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-12 px-6 max-w-4xl mx-auto text-center">
+    <h3 class="text-2xl font-semibold mb-4">Contact & Location</h3>
+    <p class="text-gray-600 mb-2">123 Olive Lane, Napa Valley, CA</p>
+    <p class="text-gray-600 mb-4">Call us: (123) 456-7890</p>
+    <a href="#" class="bg-green-800 text-white px-6 py-2 rounded hover:bg-green-700">Make a Reservation</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4 text-center">
+    <p>&copy; 2025 Olive & Thyme Bistro. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
